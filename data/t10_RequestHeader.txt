@@ -1,0 +1,14 @@
+POST /soap/server.php HTTP/1.1
+Accept: */*
+SOAPAction: http://example.org/CreditCardProcess/checkValidity
+Content-Type: text/xml; charset=utf-8
+Referer: http://www.webloadmpstore.com/checkout.php
+Accept-Language: en-US,en-IN;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: www.webloadmpstore.com
+Content-Length: 390
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: PHPSESSID=4bc3d828b4def231048784ebdfb05a24
+

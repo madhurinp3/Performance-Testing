@@ -1,0 +1,23 @@
+function countUsersOnline(checked)
+{
+	var url = 'usersonlinecounter.php';
+	// notice the use of a proxy to circumvent the Same Origin Policy.
+	var a = new Ajax.PeriodicalUpdater('', url, {
+	  
+	  method: 'get',
+	  frequency: 10,
+	  requestHeaders: {Accept: 'application/json'},
+	  onSuccess: function(transport) {
+	    var notice = $('notice');
+	    var json = transport.responseText.evalJSON(true);
+	      notice.update('Users online: '+json.usersOnline+'&nbsp;&nbsp;&nbsp;&nbsp;Time: '+json.time).setStyle({ background: '#FFF' });
+	  },
+	  onFailure: function(gg) {
+	  	alert('failure');
+	  }
+	});
+	if ( checked == false )
+	{
+		a = 0;
+	}
+}

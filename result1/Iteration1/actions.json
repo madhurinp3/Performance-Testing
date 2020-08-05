@@ -1,0 +1,454 @@
+[
+    {
+        "actionName": "Login",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: www.webloadmpstore.com",
+                "infFile": "t1.inf",
+                "time": 1596603136979
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: LOGIN",
+                "infFile": "t2.inf",
+                "time": 1596603138473
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: login.php",
+                "infFile": "t3.inf",
+                "time": 1596603139432
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Login",
+                "rawStartTime": 1596603137001,
+                "rawEndTime": 1596603139434,
+                "thinkTime": 0.0,
+                "wastedTime": 0.3615236282348633
+            }
+        ]
+    },
+    {
+        "actionName": "Product1",
+        "steps": [
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: cart.php",
+                "infFile": "t4.inf",
+                "time": 1596603141756
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: CART",
+                "infFile": "t5.inf",
+                "time": 1596603143627
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: Checkout>>",
+                "infFile": "t6.inf",
+                "time": 1596603146543
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: checkout.php",
+                "infFile": "t7.inf",
+                "time": 1596603149349
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: server.php",
+                "infFile": "t8.inf",
+                "time": 1596603150243
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Custom Request: server.php_2",
+                "infFile": "t9.inf",
+                "time": 1596603151609
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "addtocart",
+                "rawStartTime": 1596603139579,
+                "rawEndTime": 1596603143629,
+                "thinkTime": 0.0,
+                "wastedTime": 0.4086787700653076
+            },
+            {
+                "transactionName": "checkout",
+                "rawStartTime": 1596603146581,
+                "rawEndTime": 1596603151611,
+                "thinkTime": 0.0,
+                "wastedTime": 0.4984557628631592
+            }
+        ]
+    },
+    {
+        "actionName": "Product2",
+        "steps": [
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: product.php",
+                "infFile": "t10.inf",
+                "time": 1596603152956
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: product.php_2",
+                "infFile": "t11.inf",
+                "time": 1596603154234
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: button_addtocart.gif",
+                "infFile": "t12.inf",
+                "time": 1596603155401
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: Checkout>>_2",
+                "infFile": "t13.inf",
+                "time": 1596603158371
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: server.php_3",
+                "infFile": "t14.inf",
+                "time": 1596603159641
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Custom Request: server.php_4",
+                "infFile": "t15.inf",
+                "time": 1596603160739
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "addtocart",
+                "rawStartTime": 1596603152969,
+                "rawEndTime": 1596603155451,
+                "thinkTime": 0.0,
+                "wastedTime": 0.24191570281982423
+            },
+            {
+                "transactionName": "Checkout",
+                "rawStartTime": 1596603155477,
+                "rawEndTime": 1596603160741,
+                "thinkTime": 0.0,
+                "wastedTime": 0.6043360233306885
+            }
+        ]
+    },
+    {
+        "actionName": "Product3",
+        "steps": [
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: product.php_3",
+                "infFile": "t16.inf",
+                "time": 1596603162369
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: button_addtocart.gif_2",
+                "infFile": "t17.inf",
+                "time": 1596603163520
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Url: Checkout>>_3",
+                "infFile": "t18.inf",
+                "time": 1596603166664
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Url: server.php_5",
+                "infFile": "t19.inf",
+                "time": 1596603167733
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Custom Request: server.php_6",
+                "infFile": "t20.inf",
+                "time": 1596603169049
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "addtocart",
+                "rawStartTime": 1596603160889,
+                "rawEndTime": 1596603163523,
+                "thinkTime": 0.0,
+                "wastedTime": 0.38631653785705569
+            },
+            {
+                "transactionName": "checkout",
+                "rawStartTime": 1596603163551,
+                "rawEndTime": 1596603169051,
+                "thinkTime": 0.0,
+                "wastedTime": 0.5927433967590332
+            }
+        ]
+    },
+    {
+        "actionName": "Demo",
+        "steps": [
+            {
+                "stepId": "STEP21",
+                "stepName": "Url: category.php",
+                "infFile": "t21.inf",
+                "time": 1596603171298
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Demos",
+                "rawStartTime": 1596603169125,
+                "rawEndTime": 1596603171300,
+                "thinkTime": 0.0,
+                "wastedTime": 0.19104814529418946
+            }
+        ]
+    },
+    {
+        "actionName": "Logout",
+        "steps": [
+            {
+                "stepId": "STEP22",
+                "stepName": "Url: login.php_2",
+                "infFile": "t22.inf",
+                "time": 1596603172966
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Logout",
+                "rawStartTime": 1596603171374,
+                "rawEndTime": 1596603173090,
+                "thinkTime": 0.0,
+                "wastedTime": 0.3312206268310547
+            }
+        ]
+    },
+    {
+        "actionName": "Execution",
+        "steps": [
+            {
+                "stepId": "STEP23",
+                "stepName": "Url: www.webloadmpstore.com",
+                "infFile": "t23.inf",
+                "time": 1596603174691
+            },
+            {
+                "stepId": "STEP24",
+                "stepName": "Url: LOGIN",
+                "infFile": "t24.inf",
+                "time": 1596603175979
+            },
+            {
+                "stepId": "STEP25",
+                "stepName": "Submit Data: login.php",
+                "infFile": "t25.inf",
+                "time": 1596603177195
+            },
+            {
+                "stepId": "STEP26",
+                "stepName": "Url: cart.php",
+                "infFile": "t26.inf",
+                "time": 1596603178468
+            },
+            {
+                "stepId": "STEP27",
+                "stepName": "Url: CART",
+                "infFile": "t27.inf",
+                "time": 1596603179841
+            },
+            {
+                "stepId": "STEP28",
+                "stepName": "Url: Checkout>>",
+                "infFile": "t28.inf",
+                "time": 1596603183215
+            },
+            {
+                "stepId": "STEP29",
+                "stepName": "Url: checkout.php",
+                "infFile": "t29.inf",
+                "time": 1596603186891
+            },
+            {
+                "stepId": "STEP30",
+                "stepName": "Url: server.php",
+                "infFile": "t30.inf",
+                "time": 1596603187794
+            },
+            {
+                "stepId": "STEP31",
+                "stepName": "Custom Request: server.php_2",
+                "infFile": "t31.inf",
+                "time": 1596603188775
+            },
+            {
+                "stepId": "STEP32",
+                "stepName": "Url: category.php",
+                "infFile": "t32.inf",
+                "time": 1596603190477
+            },
+            {
+                "stepId": "STEP33",
+                "stepName": "Url: product.php",
+                "infFile": "t33.inf",
+                "time": 1596603192672
+            },
+            {
+                "stepId": "STEP34",
+                "stepName": "Url: product.php_2",
+                "infFile": "t34.inf",
+                "time": 1596603194043
+            },
+            {
+                "stepId": "STEP35",
+                "stepName": "Url: button_addtocart.gif",
+                "infFile": "t35.inf",
+                "time": 1596603195104
+            },
+            {
+                "stepId": "STEP36",
+                "stepName": "Url: Checkout>>_2",
+                "infFile": "t36.inf",
+                "time": 1596603198352
+            },
+            {
+                "stepId": "STEP37",
+                "stepName": "Url: server.php_3",
+                "infFile": "t37.inf",
+                "time": 1596603199201
+            },
+            {
+                "stepId": "STEP38",
+                "stepName": "Custom Request: server.php_4",
+                "infFile": "t38.inf",
+                "time": 1596603200241
+            },
+            {
+                "stepId": "STEP39",
+                "stepName": "Url: category.php",
+                "infFile": "t39.inf",
+                "time": 1596603201918
+            },
+            {
+                "stepId": "STEP40",
+                "stepName": "Url: product.php_3",
+                "infFile": "t40.inf",
+                "time": 1596603204131
+            },
+            {
+                "stepId": "STEP41",
+                "stepName": "Url: button_addtocart.gif_2",
+                "infFile": "t41.inf",
+                "time": 1596603205251
+            },
+            {
+                "stepId": "STEP42",
+                "stepName": "Url: Checkout>>_3",
+                "infFile": "t42.inf",
+                "time": 1596603208292
+            },
+            {
+                "stepId": "STEP43",
+                "stepName": "Url: server.php_5",
+                "infFile": "t43.inf",
+                "time": 1596603209208
+            },
+            {
+                "stepId": "STEP44",
+                "stepName": "Custom Request: server.php_6",
+                "infFile": "t44.inf",
+                "time": 1596603210323
+            },
+            {
+                "stepId": "STEP45",
+                "stepName": "Url: login.php_2",
+                "infFile": "t45.inf",
+                "time": 1596603211770
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Login",
+                "rawStartTime": 1596603174777,
+                "rawEndTime": 1596603177243,
+                "thinkTime": 0.0,
+                "wastedTime": 0.3331613540649414
+            },
+            {
+                "transactionName": "addtocart",
+                "rawStartTime": 1596603177371,
+                "rawEndTime": 1596603179845,
+                "thinkTime": 0.0,
+                "wastedTime": 0.4460639953613281
+            },
+            {
+                "transactionName": "checkout",
+                "rawStartTime": 1596603183219,
+                "rawEndTime": 1596603188778,
+                "thinkTime": 0.0,
+                "wastedTime": 0.4399759769439697
+            },
+            {
+                "transactionName": "Demos",
+                "rawStartTime": 1596603188791,
+                "rawEndTime": 1596603190575,
+                "thinkTime": 0.0,
+                "wastedTime": 0.14793968200683595
+            },
+            {
+                "transactionName": "addtocart",
+                "rawStartTime": 1596603192807,
+                "rawEndTime": 1596603195119,
+                "thinkTime": 0.0,
+                "wastedTime": 0.42052245140075686
+            },
+            {
+                "transactionName": "Checkout",
+                "rawStartTime": 1596603195137,
+                "rawEndTime": 1596603200248,
+                "thinkTime": 0.0,
+                "wastedTime": 0.43542981147766116
+            },
+            {
+                "transactionName": "Demos",
+                "rawStartTime": 1596603200279,
+                "rawEndTime": 1596603202035,
+                "thinkTime": 0.0,
+                "wastedTime": 0.25919628143310549
+            },
+            {
+                "transactionName": "addtocart",
+                "rawStartTime": 1596603202789,
+                "rawEndTime": 1596603205278,
+                "thinkTime": 0.0,
+                "wastedTime": 0.2318112850189209
+            },
+            {
+                "transactionName": "checkout",
+                "rawStartTime": 1596603205292,
+                "rawEndTime": 1596603210325,
+                "thinkTime": 0.0,
+                "wastedTime": 0.5248053073883057
+            },
+            {
+                "transactionName": "Logout",
+                "rawStartTime": 1596603210335,
+                "rawEndTime": 1596603211775,
+                "thinkTime": 0.0,
+                "wastedTime": 0.4792931079864502
+            }
+        ]
+    }
+]

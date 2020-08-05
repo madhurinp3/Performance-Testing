@@ -1,0 +1,10 @@
+GET /product.php?id=1 HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://www.webloadmpstore.com/category.php?category_id=1
+Accept-Language: en-US,en-IN;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.webloadmpstore.com
+Connection: Keep-Alive
+Cookie: PHPSESSID=4bc3d828b4def231048784ebdfb05a24
+

@@ -1,0 +1,15 @@
+[t5]
+FileName1=t5.htm
+URL1=http://www.webloadmpstore.com/cart.php
+Total=3
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_5.xml
+FileName2=t5_accept.gif
+URL2=http://www.webloadmpstore.com/media/images/accept.gif
+FileName3=t5_delete.gif
+URL3=http://www.webloadmpstore.com/media/images/delete.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

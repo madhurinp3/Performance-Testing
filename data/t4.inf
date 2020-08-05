@@ -1,0 +1,13 @@
+[t4]
+FileName1=t4.htm
+URL1=http://www.webloadmpstore.com/cart.php?event=addproduct&id=1
+Total=2
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_4.xml
+FileName2=t4_cart.html
+URL2=http://www.webloadmpstore.com/media/js/cart.js
+[ProtocolInfo]
+ProtocolId=QTWeb

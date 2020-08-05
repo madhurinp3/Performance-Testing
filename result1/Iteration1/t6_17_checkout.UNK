@@ -1,0 +1,76 @@
+/*// SOAP on PHP
+function cardProcess(cardNumber, cardID)
+{
+	var url = 'soap/client.php?cardNumber=' + cardNumber + '&idNumber=' + cardID;
+
+	var a = new Ajax.Request(url, {
+	  method: 'get',
+	  requestHeaders: {Accept: 'application/json'},
+	  onSuccess: function(transport) {
+	    var notice = $('responseResult');	    
+	    var json = transport.responseText.evalJSON(true);
+	      notice.update((json.status ? 'Check OK' : 'Check Error')).setStyle({ background: '#FFF' });
+	      if ( json.status )
+	      {
+	      	  document.getElementById('orderButton').disabled=false;
+	      }
+	  },
+	  onFailure: function(gg) {
+	  	alert('failure');
+	  }
+	});
+}*/
+
+// SOAP on JS
+function cardProcess(cardNumber, idNumber)
+{
+	var url = "soap/server.php";
+	//var txtcard = document.getElementById('cardNumber');
+	//var txtid = document.getElementById('idNumber');
+	var valid = document.getElementById('responseResult');
+    valid.innerHTML = "Please wait.....";
+	var pl = new SOAPClientParameters();
+	pl.add("strCardNumber", cardNumber);
+	pl.add("strHolderID", idNumber);
+	SOAPClient.invoke(url, "checkValidity", pl, true, GetSoapResponse_callBack);
+	//SOAPClient.invoke(url, "checkValidity", pl, true, CheckCard_callBack);
+}
+	
+/*function CheckCard_callBack(r)
+{
+	var valid = document.getElementById('valid');
+	valid.innerHTML = "<B>" + r + "</B>";
+}*/
+function GetSoapResponse_callBack(r, soapResponse)
+{
+    //var valid = document.getElementById('valid');
+	//valid.innerHTML = "<B>" + r + "</B>";
+	if(soapResponse.xml)    // IE
+        var str = soapResponse.xml;
+    else  {  // MOZ
+        var str = (new XMLSerializer()).serializeToString(soapResponse);
+    }
+    
+    var myregexp = /(<Result xsi:type="xsd:string">\d*<\/Result>)/;
+    var result = str.match(myregexp);
+	myregexp = /\d+/;
+	if ( result )
+	{
+		result = result[0].match(myregexp);
+	}
+	
+	var valid = document.getElementById('responseResult');
+    
+    var message = 'Check Error';
+    if ( result )
+    {
+    	message = 'Check OK';
+    	document.getElementById('orderButton').disabled=false;
+    }
+    valid.innerHTML = message;
+}
+/*	
+function waitMessage(element_id)
+{
+	document.getElementById(element_id).innerHTML = 'checking ...';
+}*/

@@ -1,0 +1,15 @@
+[t6]
+FileName1=t6.htm
+URL1=http://www.webloadmpstore.com/checkout.php
+Total=3
+RequestHeaderFile=t6_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t6_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_6.xml
+FileName2=t6_soapclient.html
+URL2=http://www.webloadmpstore.com/media/js/soapclient.js
+FileName3=t6_checkout.html
+URL3=http://www.webloadmpstore.com/media/js/checkout.js
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+function updateCart(id, action)
+{
+	
+	if ( action == 'edit' )
+	{
+		var location = 'cart.php?event=update&id=' + id + '&quantity=' + document.getElementById('quantity_' + id).value;
+	}
+	else if ( action == 'delete' )
+	{
+		var location = 'cart.php?event=delete&id=' + id;
+	}
+	window.location = location;
+}

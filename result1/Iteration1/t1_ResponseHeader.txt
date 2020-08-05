@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Wed, 05 Aug 2020 04:52:15 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: PHPSESSID=df4435e20ed0c74f098e0a887ece5adf; path=/
+Upgrade: h2,h2c
+Connection: Upgrade, Keep-Alive
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 4069
+Keep-Alive: timeout=5, max=75
+Content-Type: text/html
+

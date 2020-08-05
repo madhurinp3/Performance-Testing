@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Wed, 05 Aug 2020 04:43:05 GMT
+Server: Apache
+Upgrade: h2,h2c
+Connection: Upgrade, Keep-Alive
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 557
+Keep-Alive: timeout=5, max=75
+Content-Type: text/xml; charset=utf-8
+

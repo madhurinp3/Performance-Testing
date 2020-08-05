@@ -1,0 +1,646 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "soapaction",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "if-modified-since",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/xml"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/x-icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 32,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "Aug-05-2020",
+    "RecordingDuration": 414156,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1596602414,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 131110,
+    "TotalBytesSent": 27524,
+    "TotalRequests": 61,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "webloadmpstore.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.185.224.71",
+          "IncludeInScript": true,
+          "Name": "www.webloadmpstore.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 578,
+              "EventId": 265,
+              "HttpStatus": 200,
+              "Size": 3243,
+              "URL": "http://www.webloadmpstore.com/login.php?event=logout"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 578,
+              "EventId": 259,
+              "HttpStatus": 200,
+              "Size": 270,
+              "URL": "http://www.webloadmpstore.com/soap/server.php"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 657,
+              "EventId": 257,
+              "HttpStatus": 200,
+              "Size": 557,
+              "URL": "http://www.webloadmpstore.com/soap/server.php?wsdl"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 640,
+              "EventId": 249,
+              "HttpStatus": 200,
+              "Size": 3722,
+              "URL": "http://www.webloadmpstore.com/checkout.php"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 578,
+              "EventId": 243,
+              "HttpStatus": 200,
+              "Size": 3344,
+              "URL": "http://www.webloadmpstore.com/cart.php?event=addproduct&id=9"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 656,
+              "EventId": 241,
+              "HttpStatus": 200,
+              "Size": 3333,
+              "URL": "http://www.webloadmpstore.com/product.php?id=9"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 656,
+              "EventId": 234,
+              "HttpStatus": 200,
+              "Size": 4605,
+              "URL": "http://www.webloadmpstore.com/category.php?category_id=1"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 593,
+              "EventId": 228,
+              "HttpStatus": 200,
+              "Size": 270,
+              "URL": "http://www.webloadmpstore.com/soap/server.php"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 593,
+              "EventId": 226,
+              "HttpStatus": 200,
+              "Size": 557,
+              "URL": "http://www.webloadmpstore.com/soap/server.php?wsdl"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 672,
+              "EventId": 218,
+              "HttpStatus": 200,
+              "Size": 3721,
+              "URL": "http://www.webloadmpstore.com/checkout.php"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 2000,
+              "EventId": 212,
+              "HttpStatus": 200,
+              "Size": 3343,
+              "URL": "http://www.webloadmpstore.com/cart.php?event=addproduct&id=8"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 813,
+              "EventId": 209,
+              "HttpStatus": 200,
+              "Size": 3323,
+              "URL": "http://www.webloadmpstore.com/product.php?id=8"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 750,
+              "EventId": 201,
+              "HttpStatus": 200,
+              "Size": 4605,
+              "URL": "http://www.webloadmpstore.com/category.php?category_id=1"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 625,
+              "EventId": 192,
+              "HttpStatus": 200,
+              "Size": 3360,
+              "URL": "http://www.webloadmpstore.com/product.php?id=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 281,
+              "EventId": 186,
+              "HttpStatus": 200,
+              "Size": 2698,
+              "URL": "http://www.webloadmpstore.com/media/images/products/sm_.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 297,
+              "EventId": 183,
+              "HttpStatus": 200,
+              "Size": 2736,
+              "URL": "http://www.webloadmpstore.com/media/images/products/sm_8.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 250,
+              "EventId": 180,
+              "HttpStatus": 200,
+              "Size": 2736,
+              "URL": "http://www.webloadmpstore.com/media/images/products/sm_10.jpg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 687,
+              "EventId": 176,
+              "HttpStatus": 200,
+              "Size": 4605,
+              "URL": "http://www.webloadmpstore.com/category.php?category_id=1"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 718,
+              "EventId": 168,
+              "HttpStatus": 200,
+              "Size": 270,
+              "URL": "http://www.webloadmpstore.com/soap/server.php"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 547,
+              "EventId": 166,
+              "HttpStatus": 200,
+              "Size": 557,
+              "URL": "http://www.webloadmpstore.com/soap/server.php?wsdl"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 609,
+              "EventId": 155,
+              "HttpStatus": 200,
+              "Size": 3723,
+              "URL": "http://www.webloadmpstore.com/checkout.php"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 625,
+              "EventId": 148,
+              "HttpStatus": 200,
+              "Size": 3343,
+              "URL": "http://www.webloadmpstore.com/cart.php"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 359,
+              "EventId": 140,
+              "HttpStatus": 200,
+              "Size": 921,
+              "URL": "http://www.webloadmpstore.com/media/js/checkout.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 281,
+              "EventId": 136,
+              "HttpStatus": 200,
+              "Size": 3266,
+              "URL": "http://www.webloadmpstore.com/media/js/soapclient.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 641,
+              "EventId": 133,
+              "HttpStatus": 200,
+              "Size": 3723,
+              "URL": "http://www.webloadmpstore.com/checkout.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 875,
+              "EventId": 125,
+              "HttpStatus": 200,
+              "Size": 594,
+              "URL": "http://www.webloadmpstore.com/media/images/delete.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 875,
+              "EventId": 123,
+              "HttpStatus": 200,
+              "Size": 1024,
+              "URL": "http://www.webloadmpstore.com/media/images/accept.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 1719,
+              "EventId": 121,
+              "HttpStatus": 200,
+              "Size": 3343,
+              "URL": "http://www.webloadmpstore.com/cart.php"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 281,
+              "EventId": 119,
+              "HttpStatus": 200,
+              "Size": 187,
+              "URL": "http://www.webloadmpstore.com/media/js/cart.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 797,
+              "EventId": 116,
+              "HttpStatus": 200,
+              "Size": 2882,
+              "URL": "http://www.webloadmpstore.com/cart.php?event=addproduct&id=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 500,
+              "EventId": 103,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.webloadmpstore.com/media/images/products/sm_3.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 469,
+              "EventId": 101,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.webloadmpstore.com/media/images/products/sm_4.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 625,
+              "EventId": 99,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.webloadmpstore.com/media/images/products/sm_2.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 406,
+              "EventId": 97,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.webloadmpstore.com/media/images/border_bg_l.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 360,
+              "EventId": 95,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.webloadmpstore.com/media/images/header_bg.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 328,
+              "EventId": 93,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.webloadmpstore.com/media/images/button_addtocart.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 281,
+              "EventId": 91,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.webloadmpstore.com/media/images/th.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 359,
+              "EventId": 89,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.webloadmpstore.com/media/images/cart.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 329,
+              "EventId": 87,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.webloadmpstore.com/media/images/key.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 297,
+              "EventId": 85,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.webloadmpstore.com/media/images/products/sm_1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 281,
+              "EventId": 83,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.webloadmpstore.com/media/images/logo.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 297,
+              "EventId": 81,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.webloadmpstore.com/media/js/onlinecounter.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 313,
+              "EventId": 75,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.webloadmpstore.com/media/js/prototype.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 875,
+              "EventId": 67,
+              "HttpStatus": 200,
+              "Size": 4090,
+              "URL": "http://www.webloadmpstore.com/index.php"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 734,
+              "EventId": 65,
+              "HttpStatus": 200,
+              "Size": 2900,
+              "URL": "http://www.webloadmpstore.com/login.php"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 750,
+              "EventId": 60,
+              "HttpStatus": 200,
+              "Size": 3220,
+              "URL": "http://www.webloadmpstore.com/login.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 313,
+              "EventId": 49,
+              "HttpStatus": 200,
+              "Size": 3638,
+              "URL": "http://www.webloadmpstore.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 313,
+              "EventId": 47,
+              "HttpStatus": 200,
+              "Size": 67,
+              "URL": "http://www.webloadmpstore.com/media/images/border_bg_l.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 312,
+              "EventId": 45,
+              "HttpStatus": 200,
+              "Size": 153,
+              "URL": "http://www.webloadmpstore.com/media/images/th.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 297,
+              "EventId": 43,
+              "HttpStatus": 200,
+              "Size": 511,
+              "URL": "http://www.webloadmpstore.com/media/images/header_bg.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 328,
+              "EventId": 41,
+              "HttpStatus": 200,
+              "Size": 2755,
+              "URL": "http://www.webloadmpstore.com/media/images/products/sm_4.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 297,
+              "EventId": 39,
+              "HttpStatus": 200,
+              "Size": 2568,
+              "URL": "http://www.webloadmpstore.com/media/images/products/sm_3.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 297,
+              "EventId": 37,
+              "HttpStatus": 200,
+              "Size": 2500,
+              "URL": "http://www.webloadmpstore.com/media/images/products/sm_2.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 297,
+              "EventId": 35,
+              "HttpStatus": 200,
+              "Size": 1855,
+              "URL": "http://www.webloadmpstore.com/media/images/button_addtocart.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 297,
+              "EventId": 33,
+              "HttpStatus": 200,
+              "Size": 2720,
+              "URL": "http://www.webloadmpstore.com/media/images/products/sm_1.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 359,
+              "EventId": 29,
+              "HttpStatus": 200,
+              "Size": 604,
+              "URL": "http://www.webloadmpstore.com/media/images/cart.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 344,
+              "EventId": 27,
+              "HttpStatus": 200,
+              "Size": 407,
+              "URL": "http://www.webloadmpstore.com/media/js/onlinecounter.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 344,
+              "EventId": 25,
+              "HttpStatus": 200,
+              "Size": 2011,
+              "URL": "http://www.webloadmpstore.com/media/images/logo.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 312,
+              "EventId": 23,
+              "HttpStatus": 200,
+              "Size": 586,
+              "URL": "http://www.webloadmpstore.com/media/images/key.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 297,
+              "EventId": 20,
+              "HttpStatus": 200,
+              "Size": 21595,
+              "URL": "http://www.webloadmpstore.com/media/js/prototype.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 640,
+              "EventId": 14,
+              "HttpStatus": 200,
+              "Size": 4069,
+              "URL": "http://www.webloadmpstore.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 2
+}
